@@ -16,5 +16,4 @@ public abstract class Animal {
     public static int getCount() {
         return count;
     }
-
 }

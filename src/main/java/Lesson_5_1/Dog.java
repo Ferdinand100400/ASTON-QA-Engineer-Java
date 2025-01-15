@@ -4,7 +4,6 @@ public class Dog extends Animal {
     private static int count;
     private String name;
 
-
     public Dog(String name) {
         this.name = name;
         count++;
@@ -35,5 +34,4 @@ public class Dog extends Animal {
     public static int getCount() {
         return count;
     }
-
 }

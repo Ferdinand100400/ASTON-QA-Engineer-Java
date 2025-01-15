@@ -6,7 +6,6 @@ public class Cat extends Animal {
     private String name;
     private boolean satiety;
 
-
     public Cat(String name) {
         this.name = name;
         count++;
@@ -48,6 +47,4 @@ public class Cat extends Animal {
             satiety = false;
         }
     }
-
-
 }
